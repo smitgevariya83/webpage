@@ -1,0 +1,107 @@
+<header>
+    <div class="nav-to-bar d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 px-3">
+                    <a href="">
+                        <img src="../../assets/images/images05.png" alt="" width="187px" height="64px">
+                    </a>
+                </div>
+                <div class="col-lg-5 px-3">
+                    <div class="add-pho-box d-flex justify-content-between align-items-center">
+                        <div class="add-phon align-items-center d-flex">
+                            <div class="img-add">
+                                <fa-icon [icon]="faLocation"></fa-icon>
+                            </div>
+                            <p>
+                                <span>Address:</span>
+                                <span>West Town, 12345, United States</span>
+                            </p>
+                        </div>
+                        <div class="add-phon align-items-center d-flex">
+                            <div class="img-add">
+                                <fa-icon [icon]="faPhone"></fa-icon>
+                            </div>
+                            <p>
+                                <span>Phone:</span>
+                                <span>+1 234 56 780</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-3">
+                    <nav class="d-flex align-items-center py-2 px-3">
+                        <div class="nav-lag d-flex">
+                            <ul class="nav-con d-flex flex-end justify-content-end">
+                                <li class="bor px-2">
+                                    <ul>
+                                        <li class="p-2">
+                                            <select name="">
+                                                <option value="">English</option> 
+                                                <option value="Chinies">Chinies</option>
+                                                <option value="Arabic">Arabic</option>
+                                                <option value="Percian">Percian</option>
+                                                <option value="English">English</option>
+                                                <option value="Russian">Russian</option>
+                                                <option value="Japanies">Japanies</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                    <span class="mt-2"></span>
+                                </li>
+                                <li class="bor px-2 d-flex">
+                                    <fa-icon [icon]="faUser"></fa-icon>
+                                    <a class="p-2" href="">Login</a>
+                                    <span class="mt-2"></span>
+                                </li>
+                                <li class="shopp">
+                                    <a class="m-2 pt-1" href=""><fa-icon [icon]="faCartshopping"></fa-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu p-2 d-none d-lg-block">
+        <div class="container">
+            <ul class="menu-con d-flex justify-content-between">
+                <li><a routerLink="/home" class="menu-link">Home</a></li>
+                <li><a routerLink="/hosting" class="menu-link">Hosting Plans</a></li>
+                <li><a routerLink="/wordpress" class="menu-link">Wordpress Hosting</a></li>
+                <li><a routerLink="/domain" class="menu-link">Domain</a></li>
+                <li><a routerLink="/vps" class="menu-link">VPS</a></li>
+                <li><a routerLink="/dadicated" class="menu-link">Dadicated Server</a></li>
+                <li><a routerLink="/blog" class="menu-link">Blog</a></li>
+                <li><a routerLink="/ssl" class="menu-link">SSL</a></li>
+                <li><a routerLink="/contact" class="menu-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="m_manu d-block d-lg-none">
+        <div class="logo p-2 d-flex justify-content-between">
+            <img src="../../assets/images/images06.png" alt="" width="187px" height="64px">
+            <div class="m_mob_box mt-1 me-3">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <fa-icon [icon]="faBars"></fa-icon></button>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-body">
+                    <ul class="pho_list">
+                        <li><a routerLink="/home" class="menu-link">Home</a></li>
+                        <li><a routerLink="/hosting" class="menu-link">Hosting Plans</a></li>
+                        <li><a routerLink="/wordpress" class="menu-link">Wordpress Hosting</a></li>
+                        <li><a routerLink="/domain" class="menu-link">Domain</a></li>
+                        <li><a routerLink="/vps" class="menu-link">VPS</a></li>
+                        <li><a routerLink="/dadicated" class="menu-link">Dadicated Server</a></li>
+                        <li><a routerLink="/blog" class="menu-link">Blog</a></li>
+                        <li><a routerLink="/ssl" class="menu-link">SSL</a></li>
+                        <li><a routerLink="/contact" class="menu-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<router-outlet></router-outlet>
+

@@ -1,0 +1,108 @@
+.foote-box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../../assets/images/images09.jpg);
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    padding: 100px 0;
+}
+.foote-box::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #41464b;
+    opacity: .9;
+    z-index: -1;
+}
+.footer{
+    text-align: left;
+}
+.footer-box{
+    padding: 90px 0px;
+}
+.foot-logo{
+    margin-bottom: 17px;
+}
+.foot-logo img{
+    max-width: 200px;
+}
+.foot-text p{
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 28px;
+    text-align: left;
+}
+.foot-social-icon{
+    text-align: left;
+}
+.foot-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.useful-heading h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+.useful-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #ffffff;
+}
+.useful ul li{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 12px;
+}
+.useful ul li a fa-icon{
+    margin-right: 10px;
+}
+.useful ul li a{
+    color: #ffffff;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.useful ul li a:hover{
+    color: #ce3b3b;
+    margin-left: 10px;
+}
+.foot-box .contact-foot{
+    color: white;
+    margin-bottom: 10px;
+}
+.contact-foot h6{
+    color: white;
+}
+.contact-foot p fa-icon{
+    margin-right: 10px;
+}
+.copyright-box{
+    padding: 25px 0;
+    background: linear-gradient(90deg, #f65536, #ce3b3b);
+}
+.copyright-text p{
+    color: white;
+}
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #ffffff;
+}

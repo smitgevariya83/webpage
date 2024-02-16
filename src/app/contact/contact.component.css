@@ -1,0 +1,55 @@
+.form_in_box{
+    margin-bottom: 25px;
+}
+.form-container-box{
+    border-radius: 5px;
+}
+.form_in_box input , textarea{
+    width: 100%;
+    padding: 10px 20px;
+    min-height: 55px;
+    background-color: transparent;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 2px solid #ce3b3b;
+}
+.form_btn{
+    padding: 10px 40px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #ce3b3b;
+    border: 0;
+}
+.form_in_box textarea{
+    height: 120px;
+    width: 100%;
+}
+.Contact-box .contact-Contact{
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact-Contact h6{
+    color: #333;
+}
+.contact-Contact p fa-icon{
+    margin-right: 10px;
+}
+.contact-Contact p a{
+    color: #ce3b3b;
+}
+.map-url{
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.map-url iframe {
+    height: 90%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

@@ -1,0 +1,78 @@
+.hosting_m_box{
+    padding-top: 100px;
+}
+.host_m{
+    padding: 0px 15px;
+}
+.host_m .host_box{
+    margin-bottom: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 5px 30px 0px rgb(148 146 245 / 15%);
+}
+.host_box .sha_hos{
+    margin-bottom: 15px;
+} 
+.host_box h5{
+    font-size: 22px;
+    color: #ce3b3b;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.host_box p{
+    font-size: 15px;
+    color: #555;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.host_m_con{
+    padding: 100px 0px;
+}
+.host_itam{
+    box-shadow: 0px 10px 60px rgb(182 180 180 / 20%);
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 35px 30px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.host_itam .icon_host{
+    font-size: 30px;
+    color: #ce3b3b;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.host_itam .icon_con h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    transition: .5s;
+}
+.host_itam .icon_con p{
+    font-size: 15px;
+    color: #555;
+    transition: .5s;
+}
+.host_itam:hover{
+    background-color: #ce3b3b;
+}
+.host_itam:hover .icon_host{
+    color: white;
+}
+.host_itam:hover .icon_con h3{
+    color: white;
+}
+.host_itam:hover .icon_con p{
+    color: white;
+}
+.sha_hos fa-icon{
+    font-size: 70px;
+    color: black;
+}

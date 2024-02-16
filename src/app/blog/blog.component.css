@@ -1,0 +1,81 @@
+.obg-box img{
+    border-radius: 5px;
+}
+.obg-box .obg-com{
+    padding: 20px;
+}
+.obg-box{
+    background: #ffffff;
+    border-radius: 3px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 30px 0px rgb(148 146 245 / 15%);
+}
+.obg-com .obg-title{
+    margin-bottom: 0.3rem;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ce3b3b;
+}
+.obg-com .obg-link{
+    justify-content: space-between;
+}
+.obg-link .link-obg{
+    color: #d20c1f;
+}
+.obg-com .obg-text p{
+    color: #555;
+}
+.obg-link span{
+    font-size: 15px;
+    color: #5a5a5a;
+    font-weight: 500;
+}
+.obg-box:hover .obg-title{
+    color: #5a5a5a;
+}
+.obg-btn{
+    margin-top: 30px;
+}
+.obg-btn .btn-link{
+    padding: 12px 40px;
+    color: #ce3b3b;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: 0 7px 25px rgb(41 41 41 / 27%);
+    text-decoration: none;
+    transition: .5s;
+}
+.obg-btn .btn-link:hover{
+    color: white;
+    background-color: #ce3b3b;
+}
+.pagination{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+.page_itam .page_link{
+    padding: 10px 13px;
+    margin: 0 10px;
+    border-radius: 50% !important;
+    line-height: 43px;
+    text-align: center;
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #eee;
+    transition: .5s;
+}
+.active .page_link {
+    color: #fff !important;
+    background-color: #ce3b3b !important;
+    border-color: #ce3b3b !important;
+}
+.page_itam .page_link:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}

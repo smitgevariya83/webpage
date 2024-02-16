@@ -1,0 +1,94 @@
+.price_con{
+    padding: 45px 40px;
+    background: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 60px rgb(182 180 180 / 20%)
+}
+.price-heading{
+    text-align: center;
+}
+.price-heading .price-name h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.price-name h2{
+    font-weight: 700;
+    color: #ffffff;
+    display: inline-block;
+    background: linear-gradient(90deg, #f65536, #ce3b3b);
+    border-radius: 36px;
+    width: 100px;
+    height: 50px;
+}
+.price-name h2 .ds{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.price-name .vn{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3e3e3e;
+}
+.mar{
+    margin-right: 10px;
+}
+.price-heading .price_credit{
+    margin: 20px;
+    text-align: center;
+}
+.price_credit .credit_img{
+    display: inline-block;
+    padding-top: 15px;
+    color: #e0dfdf;
+    font-size: 15px;
+    text-align: center;
+}
+.price-body{
+    text-align: left;
+}
+.price-body ul li{
+    display: block;
+    padding: 4px 12px;
+    border-bottom: 1px solid #ebebeb;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.price-body ul li fa-icon{
+    padding-right: 5px;
+    font-size: 15px;
+    color: #4caf50;
+}
+.offer-list-none fa-icon{
+    font-size: 15px;
+    padding-right: 5px;
+    color: #b7b7b7 !important;
+}
+.offer-list-none span{
+    text-decoration: line-through;
+}
+.price_con .price_btn_box{
+    margin-top: 30px;
+    text-align: center;
+}
+.price_btn_box .price_btn{
+    padding: 10px 40px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #ce3b3b;
+    color: #fff;
+    transition: .5s;
+}
+.price_btn_box .price_btn:hover{
+    background-color: white;
+    color: #ce3b3b;
+    border: 1px solid #ce3b3b;
+}

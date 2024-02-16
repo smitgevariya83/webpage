@@ -1,0 +1,130 @@
+.nav-to-bar{
+    background-color: white;
+    padding-top: 10px;
+}
+.add-phon .img-add{
+    margin-right: 10px;
+    background: #ececec;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ce3b3b;
+}
+.add-phon p{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.add-phon span{
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.img-add fa-icon{
+    font-size: 20px;
+}
+.nav-con li select{
+    border: 0;
+}
+.nav-con li{
+    position: relative;
+}
+.nav-con li a{
+    display: block;
+    font-size: 15px;
+    color: var(--black);
+}
+.sub_menu{
+    background-color: var(--white);
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    width: 150px;
+    box-shadow: 0 0 5px black;
+    z-index: 2;
+    display: none;
+}
+.sub_menu li a{
+    padding: 10px 20px;
+    display: block;
+}
+.nav-con li:hover .sub_menu{
+    display: block;
+}
+.menu .menu-con{
+    flex-direction: row;
+    margin: 10px 5px;
+}
+.menu{
+    background-color: #DF4639;
+}
+.menu-con li a{
+    transition: .5s;
+}
+.menu-con li a:hover{
+    color: #202020;
+    background: #ffffff;
+    border-radius: 50px;
+}
+.menu-link{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.bor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bor span{
+    height: 30px;
+    border-right: 1px solid black;
+}
+.bor fa-icon{
+    margin-top: 8px;
+}
+.nav-f{
+    position: fixed;
+    z-index: 999;
+}
+.btn-primary{
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.m_mob_box fa-icon{
+    font-size: 35px;
+    display: inline-block;
+    color: #fff;
+}
+.m_mob_box button{
+    margin: 0;
+}
+.offcanvas{
+    width: 50%;
+}
+.offcanvas.offcanvas-end{
+    top: 86px;
+}
+.offcanvas-body .pho_list li a{
+    display: block;
+    padding: 8px 10px;
+    color: #000000;
+}
+/* ---------------------------------------------------------------------------------------------------------
+                                        medi-query
+-----------------------------------------------------------------------------------------------------------*/
+@media (max-width:991px)
+{
+    .m_manu{
+        background-color: #DF4639;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+}
